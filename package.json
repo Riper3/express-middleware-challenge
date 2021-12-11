@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "An opinionated microservice framework for quick bootstrapping of code",
   "scripts": {
-    "start": "nodemon -r esm lib/app.js"
+    "start": "nodemon -r esm lib/app.js",
+    "test": "nodemon -r esm lib/tests/test.js"
   },
   "author": "cohire/lacunadream",
   "dependencies": {
